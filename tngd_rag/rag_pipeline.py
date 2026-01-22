@@ -49,11 +49,12 @@ class DocumentChunker:
             if len(chunk_text) >= self.chunk_size:
                 chunks.append({
                     'text': chunk_text,
-                    'metadata': metadata.copy()
+                    'metadata': metadata.copy() # url and category
                 })
                 
                 # Keep last overlap words for next chunk
-                overlap_words = int(self.overlap / 5)  # ~5 chars per word
+                overlap_words = int(self.overlap / 5) 
+                # approximately 50 words around 5 words
                 current_chunk = current_chunk[-overlap_words:] if overlap_words > 0 else []
         
         # Add remaining text
