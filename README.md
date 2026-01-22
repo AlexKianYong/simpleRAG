@@ -1,2 +1,2 @@
 # simpleRAG
-simple_rag_excercise
+![Simple TnG RAG](screenshot.png)
