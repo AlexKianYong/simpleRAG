@@ -1,0 +1,8 @@
+chromadb[sqlite]==0.5.3
+ollama==0.6.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+lxml==4.9.3
+flask==3.0.0
+python==3.12

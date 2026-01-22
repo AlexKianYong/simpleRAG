@@ -1,0 +1,933 @@
+[
+    {
+        "question": "[Chargeback] Credit or debit or prepaid card chargeback / dispute cases filed with other Financial Institutions",
+        "summary": "[Chargeback] Credit or debit or prepaid card chargeback / dispute cases filed with other Financial Institutions Question Answer 1. What is credit or debit or prepaid card chargeback / dispute?",
+        "answer": "[Chargeback] Credit or debit or prepaid card chargeback / dispute cases filed with other Financial Institutions Question Answer 1. What is credit or debit or prepaid card chargeback / dispute? Credit or debit or prepaid card chargeback / dispute is initiated when a cardholder raises a dispute with their payment provider (e.g. a bank) regarding a transaction made through Touch ‘n Go eWallet platform Cardholders may dispute the charges if they believe the transaction was unauthorised or fraudulent. 2. Why are account or card feature restrictions implemented during the credit or debit or prepaid card chargeback / dispute? To protect all users and the integrity of Touch ‘n Go eWallet platform we will implement temporary account or specific feature restrictions while we thoroughly investigate the dispute, deterring additional disputes and adhering to industry regulations. 3. How long does the credit or debit or prepaid card chargeback / dispute process take? We aim to resolve each dispute efficiently while ensuring a thorough investigation. Resolution times may vary depending on factors such as the complexity of the case. However, the cardholder may reach out to the payment provider to urge for the investigation outcome. 4. Can I still access my funds during the account restriction period? It depends on the type of restriction: If there is a complete eWallet account restriction, you will not be able to access your eWallet account. If only certain features are restricted, reloading using debit/prepaid/credit card is disabled. However, you can still reload your eWallet using alternative methods such as a reload PIN or DuitNow transfer. 5. Why do I need to pay for the credit or debit or prepaid card chargeback / dispute amount? If the investigation reveals that the disputed transaction was not due to the fault of the merchant, the user is responsible for reimbursing the disputed or charged-back amounts to Touch ‘n Go eWallet .",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29024321091993--Chargeback-Credit-or-debit-or-prepaid-card-chargeback-dispute-cases-filed-with-other-Financial-Institutions",
+        "category": "Most Frequently Asked Questions"
+    },
+    {
+        "question": "[Security and Privacy] Changing Devices for TapSecure",
+        "summary": "[Security and Privacy] Changing Devices for TapSecure Changing Devices? No Worries!",
+        "answer": "[Security and Privacy] Changing Devices for TapSecure Changing Devices? No Worries! If you ever switch devices, don't fret! Our eWallet app has got you covered. When you switch to a new device, simply follow these steps: Open the eWallet app on your new device. The app will prompt you to update and link your account to the new device. Alternatively, you can go to Settings and select \"Link To This Device\" to proceed. Forgot Your 6-Digit PIN? Not a Problem! We understand how it happens, and we've made it super easy to reset your 6-digit PIN. Just follow these simple steps: Locate the red rectangle box below. Tap on it to initiate the PIN reset process. Follow the on-screen instructions, and you'll have a new PIN in no time! We hope the above information helps. If you need further assistance, feel free to reach out to our support team by submitting a request here by selecting the Support Type as 'Registration/Login'.",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/19870088623897--Security-and-Privacy-Changing-Devices-for-TapSecure",
+        "category": "Most Frequently Asked Questions"
+    },
+    {
+        "question": "[Account Management] What do I need to do if I forgot my 6-digit PIN or my account has been suspended?",
+        "summary": "[Account Management] What do I need to do if I forgot my 6-digit PIN or my account has been suspended? Important Note!",
+        "answer": "[Account Management] What do I need to do if I forgot my 6-digit PIN or my account has been suspended? Important Note! In certain scenarios, if your account has been suspended due to exceeding allowable 6-digit PIN attempts during login or exceeding allowable security questions attempts, please be patient and allow 24 hours before attempting again. If you are no longer logged-in : 1. Open the TNG eWallet app and enter your Registered Mobile Number . 2. Tap Forgot your PIN? 3. Enter your Mobile Number. 4. Enter the One-Time Password (OTP) sent to your Mobile Number. 5. A message will appear once your 6 digit PIN has been successfully updated. If you are still logged-in : 1. Open the TNG eWallet app and tap Profile . 2. Tap Security . 3. Tap Change 6 digit PIN. 4. Enter Current 6 digit PIN. 5. Enter New 6 digit PIN. 6. A message will appear once your 6 digit PIN has been successfully updated. We hope the above information helps. If you need further assistance, feel free to reach out to our support team by submitting a request here by selecting the Support Type as ' 6-digits PIN/Security Question '.",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/8244059517849--Account-Management-What-do-I-need-to-do-if-I-forgot-my-6-digit-PIN-or-my-account-has-been-suspended",
+        "category": "Most Frequently Asked Questions"
+    },
+    {
+        "question": "What is Transferable and Non-transferable in eWallet Balance?",
+        "summary": "What is Transferable and Non-transferable in eWallet Balance? eWallet Balance refers to the sum of Transferable and Non-Transferable eWallet Balance.",
+        "answer": "What is Transferable and Non-transferable in eWallet Balance? eWallet Balance refers to the sum of Transferable and Non-Transferable eWallet Balance. Transferable eWallet Balance Non-transferable eWallet Balance This refers to eWallet Balance coming from online banking, credit/debit card, DuitNow Transfer, direct credit and GOpinjam cash-in/reload This refers to eWallet balance that comes from government initiatives or reload PIN cash-in/reload You CAN use your transferable eWallet balance for: Peer Transfer DuitNow Transfer GO+ GOinvest GOremit ATM withdrawal via Touch ‘n Go eWallet Visa card JomPAY You CANNOT use your non-transferable eWallet balance for: Transfer DuitNow Transfer GO+ GOinvest GOremit ATM withdrawal via Touch ‘n Go eWallet Visa card JomPAY",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21525172433817-What-is-Transferable-and-Non-transferable-in-eWallet-Balance",
+        "category": "Most Frequently Asked Questions"
+    },
+    {
+        "question": "[Enhanced Touch ’n Go Card] Where can I purchase the enhanced Touch ’n Go (TNG) card?",
+        "summary": "[Enhanced Touch ’n Go Card] Where can I purchase the enhanced Touch ’n Go (TNG) card? You can purchase the enhanced TNG card from the Touch ’n Go eWallet (app version 1.7.72 and above) and selected petrol stations.",
+        "answer": "[Enhanced Touch ’n Go Card] Where can I purchase the enhanced Touch ’n Go (TNG) card? You can purchase the enhanced TNG card from the Touch ’n Go eWallet (app version 1.7.72 and above) and selected petrol stations. Prior to purchasing the enhanced TNG card, please ensure that your device is Near Field Communication (NFC) enabled if you would like to utilize the Touch ‘n Go eWallet reload feature.",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/8243697977881--Enhanced-Touch-n-Go-Card-Where-can-I-purchase-the-enhanced-Touch-n-Go-TNG-card",
+        "category": "Most Frequently Asked Questions"
+    },
+    {
+        "question": "[GO+] How long does it take for the Cash Out to be paid to my Touch ‘n Go eWallet and bank account?",
+        "summary": "[GO+] How long does it take for the Cash Out to be paid to my Touch ‘n Go eWallet and bank account? A Cash Out request will be captured in the GO+ dashboard transaction details.",
+        "answer": "[GO+] How long does it take for the Cash Out to be paid to my Touch ‘n Go eWallet and bank account? A Cash Out request will be captured in the GO+ dashboard transaction details. If you Cash Out to : Your Touch ‘n Go eWallet, the money will be credited instantly Your bank account, the money will be transferred within two business day from your transaction date (T+1) from the successful processing of your Cash Out request if the request is made before 4:00 PM (T). However, if the request is made at or after 4:00 PM (T), it will be treated as a next day request and the money will be transferred within three business days (T+2) from the successful processing of your Cash Out request. You will have to bear the applicable bank fees and charges. However, you may want to check your bank account first as occasionally money has been transferred into your bank account but TNGD will only update the status upon receiving confirmation from the bank 1 day later. Upon the first successful Cash Out to your bank account, as soon as the name of your eWallet and bank account matches (status: verified), you will see a verified tag and your subsequent Cash out request will take 2 calendar days (T+1) to complete processing. Facilitate payment to TNGD merchants, the Cash Out amount will be debited immediately from your GO+ balance.",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/17238494123033--GO-How-long-does-it-take-for-the-Cash-Out-to-be-paid-to-my-Touch-n-Go-eWallet-and-bank-account",
+        "category": "Most Frequently Asked Questions"
+    },
+    {
+        "question": "What is an Unauthorised Transaction Report?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/48885231396633-What-is-an-Unauthorised-Transaction-Report",
+        "category": "Unauthorised Transaction Report"
+    },
+    {
+        "question": "How long will the investigation take, and how will I be updated?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/48892537656345-How-long-will-the-investigation-take-and-how-will-I-be-updated",
+        "category": "Unauthorised Transaction Report"
+    },
+    {
+        "question": "Can I report the same transaction to National Scam Response Centre (NSRC)?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/48892880902681-Can-I-report-the-same-transaction-to-National-Scam-Response-Centre-NSRC",
+        "category": "Unauthorised Transaction Report"
+    },
+    {
+        "question": "Can I still report if the unauthorised transaction happened more than 90 days ago?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/48893081994649-Can-I-still-report-if-the-unauthorised-transaction-happened-more-than-90-days-ago",
+        "category": "Unauthorised Transaction Report"
+    },
+    {
+        "question": "Can I submit an Unauthorised Transaction Report if I was tricked into making the transaction?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/48893325526553-Can-I-submit-an-Unauthorised-Transaction-Report-if-I-was-tricked-into-making-the-transaction",
+        "category": "Unauthorised Transaction Report"
+    },
+    {
+        "question": "What are the requirements to submit an Unauthorised Transaction Report?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/48893453380761-What-are-the-requirements-to-submit-an-Unauthorised-Transaction-Report",
+        "category": "Unauthorised Transaction Report"
+    },
+    {
+        "question": "What is TNG eWallet EV Charging and how does it work?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51602033738905-What-is-TNG-eWallet-EV-Charging-and-how-does-it-work",
+        "category": "EV Charging"
+    },
+    {
+        "question": "What can I do if the charging session does not start?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51601991509401-What-can-I-do-if-the-charging-session-does-not-start",
+        "category": "EV Charging"
+    },
+    {
+        "question": "The charging session stopped unexpectedly. What can I do?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51601912165017-The-charging-session-stopped-unexpectedly-What-can-I-do",
+        "category": "EV Charging"
+    },
+    {
+        "question": "My vehicle is not connecting to the charger even when the charger gun is attached correctly. What should I do?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51601858200857-My-vehicle-is-not-connecting-to-the-charger-even-when-the-charger-gun-is-attached-correctly-What-should-I-do",
+        "category": "EV Charging"
+    },
+    {
+        "question": "I am unable to stop the charge session from EV Charging mini program. What should I do?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51601823055897-I-am-unable-to-stop-the-charge-session-from-EV-Charging-mini-program-What-should-I-do",
+        "category": "EV Charging"
+    },
+    {
+        "question": "What should I do if EV Charging mini program doesn't show nearby charging stations?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51601790191641-What-should-I-do-if-EV-Charging-mini-program-doesn-t-show-nearby-charging-stations",
+        "category": "EV Charging"
+    },
+    {
+        "question": "Why is TNG eWallet asking me to verify my card?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51913921983769-Why-is-TNG-eWallet-asking-me-to-verify-my-card",
+        "category": "Reload Card Verification"
+    },
+    {
+        "question": "Why must I verify my saved cards on TNG eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51913891795097-Why-must-I-verify-my-saved-cards-on-TNG-eWallet",
+        "category": "Reload Card Verification"
+    },
+    {
+        "question": "How soon must I verify my saved card(s)?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51913855530905-How-soon-must-I-verify-my-saved-card-s",
+        "category": "Reload Card Verification"
+    },
+    {
+        "question": "Who must verify their saved card? Is it required by everyone?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51913866118937-Who-must-verify-their-saved-card-Is-it-required-by-everyone",
+        "category": "Reload Card Verification"
+    },
+    {
+        "question": "What information do I need to provide if “It’s my card” that’s saved on TNG eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51913858803865-What-information-do-I-need-to-provide-if-It-s-my-card-that-s-saved-on-TNG-eWallet",
+        "category": "Reload Card Verification"
+    },
+    {
+        "question": "What will happen if I choose the “It’s someone else’s card” option?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51913797112601-What-will-happen-if-I-choose-the-It-s-someone-else-s-card-option",
+        "category": "Reload Card Verification"
+    },
+    {
+        "question": "What is Touch ‘n Go Consumer Portal?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51471937190937-What-is-Touch-n-Go-Consumer-Portal",
+        "category": "Consumer Portal"
+    },
+    {
+        "question": "How do I log in to the Touch ‘n Go Consumer Portal?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51471911979673-How-do-I-log-in-to-the-Touch-n-Go-Consumer-Portal",
+        "category": "Consumer Portal"
+    },
+    {
+        "question": "What features or information can I access on the Touch ‘n Go Consumer Portal?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51471857064729-What-features-or-information-can-I-access-on-the-Touch-n-Go-Consumer-Portal",
+        "category": "Consumer Portal"
+    },
+    {
+        "question": "Can I update my TNG eWallet profile via the Consumer Portal?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51471822456217-Can-I-update-my-TNG-eWallet-profile-via-the-Consumer-Portal",
+        "category": "Consumer Portal"
+    },
+    {
+        "question": "Can I link an enhanced Touch ‘n Go Card to my TNG eWallet from the Consumer Portal?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51471693185049-Can-I-link-an-enhanced-Touch-n-Go-Card-to-my-TNG-eWallet-from-the-Consumer-Portal",
+        "category": "Consumer Portal"
+    },
+    {
+        "question": "Will RFID tags and Touch ‘n Go Cards added to my eWallet appear in the Consumer Portal?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51471690402073-Will-RFID-tags-and-Touch-n-Go-Cards-added-to-my-eWallet-appear-in-the-Consumer-Portal",
+        "category": "Consumer Portal"
+    },
+    {
+        "question": "What is TNG eWallet SOS Balance?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40801181483289-What-is-TNG-eWallet-SOS-Balance",
+        "category": "SOS Balance"
+    },
+    {
+        "question": "Where can I access SOS Balance feature?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/42590195575065-Where-can-I-access-SOS-Balance-feature",
+        "category": "SOS Balance"
+    },
+    {
+        "question": "How do I enable TNG eWallet SOS Balance feature?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/42590166905369-How-do-I-enable-TNG-eWallet-SOS-Balance-feature",
+        "category": "SOS Balance"
+    },
+    {
+        "question": "How do I qualify for TNG eWallet's SOS Balance?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/42590082405273-How-do-I-qualify-for-TNG-eWallet-s-SOS-Balance",
+        "category": "SOS Balance"
+    },
+    {
+        "question": "I am eligible for SOS Balance, but SOS Balance did not work when I passed through a toll. Why?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/42589997131673-I-am-eligible-for-SOS-Balance-but-SOS-Balance-did-not-work-when-I-passed-through-a-toll-Why",
+        "category": "SOS Balance"
+    },
+    {
+        "question": "How does TNG eWallet SOS Balance work at tolls?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/42589879676313-How-does-TNG-eWallet-SOS-Balance-work-at-tolls",
+        "category": "SOS Balance"
+    },
+    {
+        "question": "What are TNG Digital's company details?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/43948746266777-What-are-TNG-Digital-s-company-details",
+        "category": "e-Invoice"
+    },
+    {
+        "question": "What is e-Invoice?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/43948724787865-What-is-e-Invoice",
+        "category": "e-Invoice"
+    },
+    {
+        "question": "When does e-Invoice take effect?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/43948643697433-When-does-e-Invoice-take-effect",
+        "category": "e-Invoice"
+    },
+    {
+        "question": "Which trader types are affected by e-Invoice implementation?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/43948524013465-Which-trader-types-are-affected-by-e-Invoice-implementation",
+        "category": "e-Invoice"
+    },
+    {
+        "question": "What are the benefits of e-Invoice?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/43948417368473-What-are-the-benefits-of-e-Invoice",
+        "category": "e-Invoice"
+    },
+    {
+        "question": "Which party should issue the e-Invoice?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/43948160285465-Which-party-should-issue-the-e-Invoice",
+        "category": "e-Invoice"
+    },
+    {
+        "question": "What is CardMatch?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51398970213401-What-is-CardMatch",
+        "category": "CardMatch"
+    },
+    {
+        "question": "How do I use CardMatch?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51398949331609-How-do-I-use-CardMatch",
+        "category": "CardMatch"
+    },
+    {
+        "question": "What happens when I don’t finish my application?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51398942496793-What-happens-when-I-don-t-finish-my-application",
+        "category": "CardMatch"
+    },
+    {
+        "question": "How do I know what’s the status of my application?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51398887396761-How-do-I-know-what-s-the-status-of-my-application",
+        "category": "CardMatch"
+    },
+    {
+        "question": "Is there a fee for using CardMatch?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51398862791705-Is-there-a-fee-for-using-CardMatch",
+        "category": "CardMatch"
+    },
+    {
+        "question": "Can I apply for any credit card through CardMatch?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/51398830962841-Can-I-apply-for-any-credit-card-through-CardMatch",
+        "category": "CardMatch"
+    },
+    {
+        "question": "What is Near Me on TNG eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40947828970265-What-is-Near-Me-on-TNG-eWallet",
+        "category": "Near Me"
+    },
+    {
+        "question": "Do I need to enable location services to use the Near Me feature?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40947564520601-Do-I-need-to-enable-location-services-to-use-the-Near-Me-feature",
+        "category": "Near Me"
+    },
+    {
+        "question": "Where can I find my purchased voucher codes?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40947789727257-Where-can-I-find-my-purchased-voucher-codes",
+        "category": "Near Me"
+    },
+    {
+        "question": "What is the return, exchange and refund policy for purchases made via TNG eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40947767135257-What-is-the-return-exchange-and-refund-policy-for-purchases-made-via-TNG-eWallet",
+        "category": "Near Me"
+    },
+    {
+        "question": "What if I encounter issues with my purchase?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40947720977689-What-if-I-encounter-issues-with-my-purchase",
+        "category": "Near Me"
+    },
+    {
+        "question": "Can I cancel my purchase once my order is confirmed?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/40947645511321-Can-I-cancel-my-purchase-once-my-order-is-confirmed",
+        "category": "Near Me"
+    },
+    {
+        "question": "Touch 'n Go Shop",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/47240289079705-Touch-n-Go-Shop",
+        "category": "Touch 'n Go Shop"
+    },
+    {
+        "question": "What are the Unit Trust funds offered by ASNB through Touch ‘n Go eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/20501253181209-What-are-the-Unit-Trust-funds-offered-by-ASNB-through-Touch-n-Go-eWallet",
+        "category": "ASNB"
+    },
+    {
+        "question": "What is the eligibility to invest in ASNB funds?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/20501235714585-What-is-the-eligibility-to-invest-in-ASNB-funds",
+        "category": "ASNB"
+    },
+    {
+        "question": "Can I open ASNB account through TNG eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/20501241109913-Can-I-open-ASNB-account-through-TNG-eWallet",
+        "category": "ASNB"
+    },
+    {
+        "question": "What time can I perform fund subscriptions?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/20500954243481-What-time-can-I-perform-fund-subscriptions",
+        "category": "ASNB"
+    },
+    {
+        "question": "What is the minimum initial investment for each ASNB fund?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/20501207086105-What-is-the-minimum-initial-investment-for-each-ASNB-fund",
+        "category": "ASNB"
+    },
+    {
+        "question": "What are the fees & charges to invest in ASNB fund through Touch ‘n Go eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/20501133180441-What-are-the-fees-charges-to-invest-in-ASNB-fund-through-Touch-n-Go-eWallet",
+        "category": "ASNB"
+    },
+    {
+        "question": "What is e-Mas?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/23398883809433-What-is-e-Mas",
+        "category": "e-Mas"
+    },
+    {
+        "question": "Am I eligible to invest via e-Mas?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/23398857402649-Am-I-eligible-to-invest-via-e-Mas",
+        "category": "e-Mas"
+    },
+    {
+        "question": "Can foreigners invest via e-Mas?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/23398852317721-Can-foreigners-invest-via-e-Mas",
+        "category": "e-Mas"
+    },
+    {
+        "question": "What are the benefits of investing in Gold?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/23398821843737-What-are-the-benefits-of-investing-in-Gold",
+        "category": "e-Mas"
+    },
+    {
+        "question": "What is the minimum purchase and selling amount for each gold investment transaction?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/23398806182553-What-is-the-minimum-purchase-and-selling-amount-for-each-gold-investment-transaction",
+        "category": "e-Mas"
+    },
+    {
+        "question": "How do I check my current gold investment value if I sell my gold at the market rate?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33652476995097-How-do-I-check-my-current-gold-investment-value-if-I-sell-my-gold-at-the-market-rate",
+        "category": "e-Mas"
+    },
+    {
+        "question": "What is the difference between TNG eWallet Soundbox Pocket and TNG eWallet TransferMATE?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/42361637466265-What-is-the-difference-between-TNG-eWallet-Soundbox-Pocket-and-TNG-eWallet-TransferMATE",
+        "category": "Soundbox TransferMate"
+    },
+    {
+        "question": "What is TNG eWallet Soundbox TransferMATE?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38589368031257-What-is-TNG-eWallet-Soundbox-TransferMATE",
+        "category": "Soundbox TransferMate"
+    },
+    {
+        "question": "Where can I purchase the TNG eWallet Soundbox TransferMATE?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38589232407449-Where-can-I-purchase-the-TNG-eWallet-Soundbox-TransferMATE",
+        "category": "Soundbox TransferMate"
+    },
+    {
+        "question": "Can I purchase the TNG eWallet Soundbox TransferMATE as a gift for someone else?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38589111219993-Can-I-purchase-the-TNG-eWallet-Soundbox-TransferMATE-as-a-gift-for-someone-else",
+        "category": "Soundbox TransferMate"
+    },
+    {
+        "question": "How long does it take for my TNG eWallet Soundbox TransferMATE order to arrive? Can I track its delivery status?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38589012119577-How-long-does-it-take-for-my-TNG-eWallet-Soundbox-TransferMATE-order-to-arrive-Can-I-track-its-delivery-status",
+        "category": "Soundbox TransferMate"
+    },
+    {
+        "question": "How many TNG eWallet Soundbox TransferMATE can I purchase at a time?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38588925569945-How-many-TNG-eWallet-Soundbox-TransferMATE-can-I-purchase-at-a-time",
+        "category": "Soundbox TransferMate"
+    },
+    {
+        "question": "What are Huawei Wearables?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41791236519065-What-are-Huawei-Wearables",
+        "category": "Payment with Huawei Wearables"
+    },
+    {
+        "question": "Which Huawei Wearables are compatible with this feature?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41791872506265-Which-Huawei-Wearables-are-compatible-with-this-feature",
+        "category": "Payment with Huawei Wearables"
+    },
+    {
+        "question": "How do I download TNG eWallet app on my Huawei Wearables (Applicable for Huawei Watch 4 Series only)",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41791844957209-How-do-I-download-TNG-eWallet-app-on-my-Huawei-Wearables-Applicable-for-Huawei-Watch-4-Series-only",
+        "category": "Payment with Huawei Wearables"
+    },
+    {
+        "question": "How do I activate payments with Huawei Wearables [Applicable for Huawei Watch GT4, GT5, Fit3, Ultimate, D2 Series only]",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41791789954585-How-do-I-activate-payments-with-Huawei-Wearables-Applicable-for-Huawei-Watch-GT4-GT5-Fit3-Ultimate-D2-Series-only",
+        "category": "Payment with Huawei Wearables"
+    },
+    {
+        "question": "How to link my Huawei Wearables to my TNG eWallet account?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41791700964505-How-to-link-my-Huawei-Wearables-to-my-TNG-eWallet-account",
+        "category": "Payment with Huawei Wearables"
+    },
+    {
+        "question": "How do I pay using my Huawei Wearables",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41791479746329-How-do-I-pay-using-my-Huawei-Wearables",
+        "category": "Payment with Huawei Wearables"
+    },
+    {
+        "question": "What is Zakat?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/30231193503257-What-is-Zakat",
+        "category": "Zakat"
+    },
+    {
+        "question": "What is the “Zakat” feature?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/30231157236761-What-is-the-Zakat-feature",
+        "category": "Zakat"
+    },
+    {
+        "question": "Is Touch n Go Digital the right hand/ legal official zakat collector (amil)?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/30231164495129-Is-Touch-n-Go-Digital-the-right-hand-legal-official-zakat-collector-amil",
+        "category": "Zakat"
+    },
+    {
+        "question": "What Zakat Institution is available on TNG (Touch n Go) eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/30231124981401-What-Zakat-Institution-is-available-on-TNG-Touch-n-Go-eWallet",
+        "category": "Zakat"
+    },
+    {
+        "question": "Why am I unable to see the “Zakat” feature?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/30231103871001-Why-am-I-unable-to-see-the-Zakat-feature",
+        "category": "Zakat"
+    },
+    {
+        "question": "How do I make payment for Zakat?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/30230881295129-How-do-I-make-payment-for-Zakat",
+        "category": "Zakat"
+    },
+    {
+        "question": "[Android] Does TNG eWallet take any of the proceeds?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/360063909613--Android-Does-TNG-eWallet-take-any-of-the-proceeds",
+        "category": "[Android] Donation"
+    },
+    {
+        "question": "[Android] How do I know if my donation was successful?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/1500003451221--Android-How-do-I-know-if-my-donation-was-successful",
+        "category": "[Android] Donation"
+    },
+    {
+        "question": "[Android] Is my donation tax deductible?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/360062057294--Android-Is-my-donation-tax-deductible",
+        "category": "[Android] Donation"
+    },
+    {
+        "question": "[Android] How do I obtain a receipt of my donation for tax deduction?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/1500003451241--Android-How-do-I-obtain-a-receipt-of-my-donation-for-tax-deduction",
+        "category": "[Android] Donation"
+    },
+    {
+        "question": "[Android] Is there a minimum or maximum donation amount?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/360063909713--Android-Is-there-a-minimum-or-maximum-donation-amount",
+        "category": "[Android] Donation"
+    },
+    {
+        "question": "[Android] I am a member of a charity or religious organisation and would like to include Touch ‘n Go eWallet as a payment method for donations. How do I apply?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/360063909733--Android-I-am-a-member-of-a-charity-or-religious-organisation-and-would-like-to-include-Touch-n-Go-eWallet-as-a-payment-method-for-donations-How-do-I-apply",
+        "category": "[Android] Donation"
+    },
+    {
+        "question": "Why renew with us?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/14374647544217-Why-renew-with-us",
+        "category": "Road Tax"
+    },
+    {
+        "question": "Can I renew my car / motorcycle insurance here too?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/34155071701785-Can-I-renew-my-car-motorcycle-insurance-here-too",
+        "category": "Road Tax"
+    },
+    {
+        "question": "Will I receive a physical road tax?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/34155059178265-Will-I-receive-a-physical-road-tax",
+        "category": "Road Tax"
+    },
+    {
+        "question": "How can I view my digital road tax via MyJPJ app?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/34154978890905-How-can-I-view-my-digital-road-tax-via-MyJPJ-app",
+        "category": "Road Tax"
+    },
+    {
+        "question": "Can I renew multiple road tax application?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/14374643747865-Can-I-renew-multiple-road-tax-application",
+        "category": "Road Tax"
+    },
+    {
+        "question": "How do I check my road tax price for my vehicle?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/14374612208793-How-do-I-check-my-road-tax-price-for-my-vehicle",
+        "category": "Road Tax"
+    },
+    {
+        "question": "What is SOS Top Up About?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21576244550681-What-is-SOS-Top-Up-About",
+        "category": "SOS Top Up"
+    },
+    {
+        "question": "Who is eligible to use the service?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21576254862233-Who-is-eligible-to-use-the-service",
+        "category": "SOS Top Up"
+    },
+    {
+        "question": "Are there any charges to use the service?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21576206934809-Are-there-any-charges-to-use-the-service",
+        "category": "SOS Top Up"
+    },
+    {
+        "question": "When does the repayment period begin?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21576183749529-When-does-the-repayment-period-begin",
+        "category": "SOS Top Up"
+    },
+    {
+        "question": "Are the late payment fees applicable?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21576180585881-Are-the-late-payment-fees-applicable",
+        "category": "SOS Top Up"
+    },
+    {
+        "question": "Can I make another SOS Top Up if the previous one has not been repaid?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/21576119239321-Can-I-make-another-SOS-Top-Up-if-the-previous-one-has-not-been-repaid",
+        "category": "SOS Top Up"
+    },
+    {
+        "question": "Where to look for Apple Zone in TNG eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29829988706585-Where-to-look-for-Apple-Zone-in-TNG-eWallet",
+        "category": "Apple Zone"
+    },
+    {
+        "question": "How to apply for refund of Apple Services payment (iCloud, App Store Apple Music, etc.)?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29639668628249-How-to-apply-for-refund-of-Apple-Services-payment-iCloud-App-Store-Apple-Music-etc",
+        "category": "Apple Zone"
+    },
+    {
+        "question": "How to cancel my Apple Services subscription-related payment?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29644783007129-How-to-cancel-my-Apple-Services-subscription-related-payment",
+        "category": "Apple Zone"
+    },
+    {
+        "question": "How to unlink Apple ID auto-debit payment?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29645561408025-How-to-unlink-Apple-ID-auto-debit-payment",
+        "category": "Apple Zone"
+    },
+    {
+        "question": "How to link Apple Services with Touch 'n Go eWallet as the payment method?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29645780866713-How-to-link-Apple-Services-with-Touch-n-Go-eWallet-as-the-payment-method",
+        "category": "Apple Zone"
+    },
+    {
+        "question": "What should I do if I failed to link Apple ID with Touch 'n Go eWallet as the payment method?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/29645930355353-What-should-I-do-if-I-failed-to-link-Apple-ID-with-Touch-n-Go-eWallet-as-the-payment-method",
+        "category": "Apple Zone"
+    },
+    {
+        "question": "Who can use the TNG eWallet VEP registration?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41235560623769-Who-can-use-the-TNG-eWallet-VEP-registration",
+        "category": "Vehicle Entry Permit ( VEP )"
+    },
+    {
+        "question": "What are the ID requirements for applying for a VEP?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41235687106201-What-are-the-ID-requirements-for-applying-for-a-VEP",
+        "category": "Vehicle Entry Permit ( VEP )"
+    },
+    {
+        "question": "How does the system work for Malaysian Users holding a Singaporean PR?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41235762881433-How-does-the-system-work-for-Malaysian-Users-holding-a-Singaporean-PR",
+        "category": "Vehicle Entry Permit ( VEP )"
+    },
+    {
+        "question": "How does the system work for Singaporean Users?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/41235879342361-How-does-the-system-work-for-Singaporean-Users",
+        "category": "Vehicle Entry Permit ( VEP )"
+    },
+    {
+        "question": "How to update my National ID in Touch ‘n Go eWallet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38033108316569-How-to-update-my-National-ID-in-Touch-n-Go-eWallet",
+        "category": "Vehicle Entry Permit ( VEP )"
+    },
+    {
+        "question": "What should I do if previous vehicle owner have registered VEP for the said vehicle?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33319006535577-What-should-I-do-if-previous-vehicle-owner-have-registered-VEP-for-the-said-vehicle",
+        "category": "Vehicle Entry Permit ( VEP )"
+    },
+    {
+        "question": "Where can I check the balance of TnGD Points?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33361726770969-Where-can-I-check-the-balance-of-TnGD-Points",
+        "category": "A+ Rewards"
+    },
+    {
+        "question": "How to know which items can pay with TnGD Points?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33361699069849-How-to-know-which-items-can-pay-with-TnGD-Points",
+        "category": "A+ Rewards"
+    },
+    {
+        "question": "Why I cannot buy with points while my TnGD Points is sufficient?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33361641281177-Why-I-cannot-buy-with-points-while-my-TnGD-Points-is-sufficient",
+        "category": "A+ Rewards"
+    },
+    {
+        "question": "Can I partially pay with TnGD Points, and the rest with other payment method?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33361612483225-Can-I-partially-pay-with-TnGD-Points-and-the-rest-with-other-payment-method",
+        "category": "A+ Rewards"
+    },
+    {
+        "question": "I have submitted support ticket for A+ Rewards, how do i track it?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33356677150489-I-have-submitted-support-ticket-for-A-Rewards-how-do-i-track-it",
+        "category": "A+ Rewards"
+    },
+    {
+        "question": "I have an issue with A+ rewards voucher, what should I do?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/33356596498329-I-have-an-issue-with-A-rewards-voucher-what-should-I-do",
+        "category": "A+ Rewards"
+    },
+    {
+        "question": "What is Overseas QR Payment?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/34331161797273-What-is-Overseas-QR-Payment",
+        "category": "Overseas QR Payment"
+    },
+    {
+        "question": "What are the benefits of paying with TNG eWallet abroad?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/34330741544857-What-are-the-benefits-of-paying-with-TNG-eWallet-abroad",
+        "category": "Overseas QR Payment"
+    },
+    {
+        "question": "Can I also use TNG eWallet to purchase goods and services from Abroad?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/38995615530905-Can-I-also-use-TNG-eWallet-to-purchase-goods-and-services-from-Abroad",
+        "category": "Overseas QR Payment"
+    },
+    {
+        "question": "What does the amount displayed in a foreign currency on my eWallet mean?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/35848645563417-What-does-the-amount-displayed-in-a-foreign-currency-on-my-eWallet-mean",
+        "category": "Overseas QR Payment"
+    },
+    {
+        "question": "Why do I see the option to switch countries from my eWallet home screen? What does that do?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/35848849484185-Why-do-I-see-the-option-to-switch-countries-from-my-eWallet-home-screen-What-does-that-do",
+        "category": "Overseas QR Payment"
+    },
+    {
+        "question": "Does TNG eWallet charge a conversion fee for overseas transactions?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/34330674036889-Does-TNG-eWallet-charge-a-conversion-fee-for-overseas-transactions",
+        "category": "Overseas QR Payment"
+    },
+    {
+        "question": "What is Cashback Packet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/22138542225305-What-is-Cashback-Packet",
+        "category": "Cashback Packet (User)"
+    },
+    {
+        "question": "Who can receive Cashback Packet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/22138498612761-Who-can-receive-Cashback-Packet",
+        "category": "Cashback Packet (User)"
+    },
+    {
+        "question": "How much can users receive from a Cashback Packet?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/22138450756249-How-much-can-users-receive-from-a-Cashback-Packet",
+        "category": "Cashback Packet (User)"
+    },
+    {
+        "question": "How do I know if I have collected the Cashback Packet successfully?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/22138429518489-How-do-I-know-if-I-have-collected-the-Cashback-Packet-successfully",
+        "category": "Cashback Packet (User)"
+    },
+    {
+        "question": "Is there a transaction record for claimed Cashback Packets?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/22138355506969-Is-there-a-transaction-record-for-claimed-Cashback-Packets",
+        "category": "Cashback Packet (User)"
+    },
+    {
+        "question": "What happens if I don’t open the Cashback Packet immediately upon receiving it?",
+        "summary": "-",
+        "answer": "-",
+        "url": "https://support.tngdigital.com.my/hc/en-my/articles/22138316608153-What-happens-if-I-don-t-open-the-Cashback-Packet-immediately-upon-receiving-it",
+        "category": "Cashback Packet (User)"
+    }
+]
