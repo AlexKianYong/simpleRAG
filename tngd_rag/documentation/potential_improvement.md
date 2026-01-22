@@ -24,5 +24,7 @@ Currently, the system relies on a manual JSON with many missing answers (`"-"`).
 * **Latency Monitoring**: Track how long Mistral takes to respond to ensure the local hardware isn't becoming a bottleneck for the user.
 
 Add logging feature
+
+Provide more summary from the given Link/URL
 ---
 *Roadmap Version: 2026.01.22*
