@@ -311,7 +311,11 @@ class RAGPipeline:
         retrieved_chunks = self.retrieve(question)
         answer, url = self.generate_answer(question, retrieved_chunks)
         
+        final_answer = answer
+        if url and url != "-":
+            final_answer += f"\n\nReference URL - {url}"
+
         return {
             'retrieved_chunks': retrieved_chunks,
-            'answer': answer + "\n\nReferencee URL - " + url
+            'answer': final_answer
         }

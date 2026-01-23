@@ -1,94 +1,103 @@
-import json
+import cloudscraper
 import os
-import re
 from bs4 import BeautifulSoup
+import json
+import re
+import unicodedata
+from concurrent.futures import ThreadPoolExecutor
 
-def build_knowledge_base():
-    main_index_file = "tng_faq_page/main_faq.html" 
-    articles_folder = "tng_faq_page/articles" 
-    output_file = "../data/faq_data.json"
+def clean_text_strictly(text):
+    """Aggressively removes unicode, smart quotes, and newlines."""
+    if not text:
+        return ""
+    
+    # 1. Replace newlines and tabs with spaces
+    text = text.replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
+    
+    # 2. Normalize to decompose combined characters
+    text = unicodedata.normalize("NFKD", text)
+    
+    # 3. Manual map for stubborn characters (Non-breaking space, smart quotes)
+    replacements = {
+        '\xa0': ' ',     # Non-breaking space
+        '\u2018': "'",   # Left single quote
+        '\u2019': "'",   # Right single quote
+        '\u201c': '"',   # Left double quote
+        '\u201d': '"',   # Right double quote
+        '\u2013': '-',   # En dash
+        '\u2014': '-',   # Em dash
+    }
+    for char, replacement in replacements.items():
+        text = text.replace(char, replacement)
+    
+    # 4. Remove any remaining non-ASCII characters if you want purely clean text
+    # This keeps standard punctuation but removes symbols/icons
+    text = text.encode("ascii", "ignore").decode("utf-8")
+    
+    # 5. Collapse multiple spaces into one
+    text = re.sub(r'\s+', ' ', text)
+    
+    return text.strip()
+
+def scrape_article(article_info):
+    url, scraper = article_info
+    try:
+        res = scraper.get(url, timeout=10)
+        if res.status_code == 200:
+            soup = BeautifulSoup(res.text, 'html.parser')
+            
+            question = soup.find('h1').get_text(strip=True) if soup.find('h1') else "No Title"
+            
+            answer_div = soup.select_one('.article-body') or soup.select_one('.article-info')
+            # Extract text first, then clean
+            raw_answer = answer_div.get_text(separator=" ", strip=True) if answer_div else ""
+            
+            breadcrumbs = soup.select('.breadcrumbs li')
+            category = breadcrumbs[2].get_text(strip=True) if len(breadcrumbs) >= 3 else "General"
+
+            return {
+                "category": clean_text_strictly(category),
+                "question": clean_text_strictly(question),
+                "answer": clean_text_strictly(raw_answer),
+                "url": url
+            }
+    except Exception as e:
+        print(f"Error scraping {url}: {e}")
+    return None
+
+def main():
     base_url = "https://support.tngdigital.com.my"
+    main_url = f"{base_url}/hc/en-my/categories/360002280493-Frequently-Asked-Questions-FAQ"
+    targetKnowledgeBasePath = "../data/faq_data.json"
+    
+    scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
+    
+    print("Fetching main list...")
+    main_res = scraper.get(main_url)
+    soup = BeautifulSoup(main_res.text, 'html.parser')
+    links = [base_url + a.get('href') for a in soup.select('a.article-list-link')]
+    
+    print(f"Found {len(links)} articles. Scraping in parallel...")
 
-    if not os.path.exists(main_index_file):
-        print(f"Error: {main_index_file} not found!")
-        return
+    tasks = [(link, scraper) for link in links]
 
-    with open(main_index_file, "r", encoding="utf-8") as f:
-        index_soup = BeautifulSoup(f.read(), "html.parser")
+    # Using 5 workers to stay under the radar
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        results = list(executor.map(scrape_article, tasks))
 
-    final_data = []
-    category_headers = index_soup.find_all(class_="section-tree-title")
+    final_data = [r for r in results if r is not None]
 
-    for header in category_headers:
-        category_name = header.get_text(strip=True)
-        parent_section = header.find_parent() 
-        
-        if parent_section:
-            links = parent_section.find_all('a', href=True)
-            for link in links:
-                href = link['href']
-                if "/hc/en-my/articles/" in href:
-                    match = re.search(r'articles/(\d+)', href)
-                    if not match: continue
-                    article_id = match.group(1)
-                    
-                    target_file = None
-                    if os.path.exists(articles_folder):
-                        for filename in os.listdir(articles_folder):
-                            if article_id in filename and filename.endswith(".html"):
-                                target_file = os.path.join(articles_folder, filename)
-                                break
-                    
-                    if target_file:
-                        with open(target_file, "r", encoding="utf-8") as af:
-                            article_soup = BeautifulSoup(af.read(), "html.parser")
-                        
-                        article_box = article_soup.find("article", class_="article")
-                        
-                        if article_box:
-                            # 1. Target the specific sections
-                            art_header = article_box.find("header", class_="article-header")
-                            art_info = article_box.find("section", class_="article-info")
-                            
-                            # 2. REMOVE THE AUTHOR TAG COMPLETELY
-                            if art_header:
-                                author_tag = art_header.find("div", class_="article-author")
-                                if author_tag:
-                                    author_tag.decompose() # Destroys the tag and its children
-                            
-                            # 3. Extract cleaned text
-                            header_text = art_header.get_text(" ", strip=True) if art_header else ""
-                            info_text = art_info.get_text(" ", strip=True) if art_info else ""
-                            
-                            answer_text = f"{header_text} {info_text}".strip()
-                            
-                            h1_tag = art_header.find("h1") if art_header else None
-                            question = h1_tag.get_text(strip=True) if h1_tag else link.get_text(strip=True)
-                            
-                            sentences = re.split(r'(?<=[.!?])\s+', answer_text)
-                            summary = " ".join(sentences[:2]) if len(sentences) >= 2 else answer_text
-                        else:
-                            question = link.get_text(strip=True)
-                            answer_text = "-"
-                            summary = "-"
-                    else:
-                        question = link.get_text(strip=True)
-                        answer_text = "-"
-                        summary = "-"
+    directory = os.path.dirname(targetKnowledgeBasePath)
+    if not os.path.exists(directory):
+        print(f"Directory {directory} does not exist. Creating it now...")
+        os.makedirs(directory) # This creates the folder
 
-                    final_data.append({
-                        "question": question,
-                        "summary": summary,
-                        "answer": answer_text if answer_text else "-",
-                        "url": href.split('?')[0],
-                        "category": category_name
-                    })
-
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(targetKnowledgeBasePath, 'w', encoding='utf-8') as f:
+        # ensure_ascii=True will force all non-ascii characters to be escaped, 
+        # but since we cleaned them, False is fine and more readable.
         json.dump(final_data, f, indent=4, ensure_ascii=False)
 
-    print(f"Extraction complete! Saved to {output_file}")
+    print(f"Success! {len(final_data)} articles saved to faq_data.json.")
 
 if __name__ == "__main__":
-    build_knowledge_base()
+    main()
