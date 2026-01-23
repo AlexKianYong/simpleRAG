@@ -71,25 +71,21 @@ This will:
 
 ### Step 4: Start Using the Bot
 
-**Option A: Interactive CLI**
-```powershell
-python cli.py
-```
+(Optional Step) cd scripts
+- go to tngd_rag\scripts and launch the web scraper script
 
-**Option B: Demo Mode**
-```powershell
-python cli.py --demo
-```
+(Optional Step) python .\scrape_tngd_faq.py 
+- this step will launch a  web scraper and grab all the FaQ content and save into json
+- the output store in ### tngd_rag\data\faq_data.json ###
 
-**Option C: Programmatic Access**
-```python
-from bot import initialize_bot, ask_tngd_bot
+(Optional Step) rm -r chromadb_store
+- clear chromaDB 
 
-initialize_bot()
+python .\ui\app.py
 
-result = ask_tngd_bot("How do I reload my eWallet?")
-print(result['final_answer'])
-```
+- when the app.py start knowledgeBase will be loaded into ChromaDB autimatically
+
+
 
 ## 🏗️ Architecture
 
@@ -131,25 +127,6 @@ print(result['final_answer'])
          ┌───────────▼──────────────┐
          │   Final Answer           │
          └─────────────────────────┘
-```
-
-### File Structure
-
-```
-tngd_rag/
-├── bot.py                      # Main bot interface
-├── rag_pipeline.py             # RAG pipeline components
-├── guardrails.py               # Adversarial defense
-├── cli.py                      # Command-line interface
-├── initialize.py               # Setup script
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-├── data/                       # FAQ data directory
-│   └── faq_data.json          # FAQ knowledge base
-├── chromadb_store/            # Vector database (auto-created)
-├── scripts/
-│   └── scrape_tngd_faq.py     # Web scraper
-└── ui/                        # Future UI extensions
 ```
 
 ## 📖 Core Modules

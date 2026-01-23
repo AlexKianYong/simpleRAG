@@ -11,6 +11,23 @@
             box-sizing: border-box;
         }
 
+        /* Styling for the clickable links */
+        .message-content a {
+            font-weight: 600;
+            word-break: break-all; 
+            text-decoration: underline;
+        }
+
+        /* Color for links in the Bot's bubble */
+        .message-bot .message-content a {
+            color: #764ba2; 
+        }
+
+        /* Color for links in the User's bubble (if any) */
+        .message-user .message-content a {
+            color: #ffffff;
+        }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -277,6 +294,12 @@
             }
         });
 
+        // This "finds" URLs and wraps them in <a> tags
+        function linkify(text) {
+            const urlPattern = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+            return text.replace(urlPattern, '<a href="$1" target="_blank">$1</a>');
+        }
+
         function addMessage(text, isUser = false, isBlocked = false) {
             const messageDiv = document.createElement('div');
             messageDiv.className = 'chat-message';
@@ -292,7 +315,11 @@
 
             const contentDiv = document.createElement('div');
             contentDiv.className = 'message-content';
-            contentDiv.textContent = text;
+            if (isUser) {
+                contentDiv.textContent = text; // Keep user text safe
+            } else {
+                contentDiv.innerHTML = linkify(text); // Convert bot text to links
+            }
 
             messageDiv.appendChild(contentDiv);
             chatContainer.appendChild(messageDiv);

@@ -23,8 +23,10 @@ Currently, the system relies on a manual JSON with many missing answers (`"-"`).
 * **TNGD Domain Guardrails**: Prevent the bot from answering non-TNGD questions (e.g., "How do I cook rice?").
 * **Latency Monitoring**: Track how long Mistral takes to respond to ensure the local hardware isn't becoming a bottleneck for the user.
 
-Add logging feature
+## 5. Logging feature
+* **Debugging Feature**: Logging for debugging and tracing
 
-Provide more summary from the given Link/URL
+## 6. Add Image
+* **图片**: 
 ---
 *Roadmap Version: 2026.01.22*
