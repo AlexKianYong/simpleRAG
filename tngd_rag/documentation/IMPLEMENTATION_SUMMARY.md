@@ -108,26 +108,31 @@ ollama serve
 ollama pull mistral
 ```
 
-<!-- ### 5. Initialize System
-```powershell
-python initialize.py
-``` -->
-
 ### 6. Use the System
 ```powershell
 
-rm -r .\chromadb_store\
-python ui/app.py
+(Optional Step) cd scripts
+- go to tngd_rag\scripts and launch the web scraper script
 
----
+(Optional Step) python .\scrape_tngd_faq.py 
+- this step will launch a  web scraper and grab all the FaQ content and save into json
+- the output store in ### tngd_rag\data\faq_data.json ###
 
+(Optional Step) rm -r chromadb_store
+- clear chromaDB 
+
+python .\ui\app.py
+
+- when the app.py start knowledgeBase will be loaded into ChromaDB autimatically
+
+```
 ## 🏗️ Architecture
 
 ### System Components
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   User Query                             │
+│                   User Query                            │
 └────────────────────┬────────────────────────────────────┘
                      │
          ┌───────────▼──────────────┐
@@ -161,24 +166,7 @@ python ui/app.py
          ┌───────────▼──────────────┐
          │   Final Answer           │
          └─────────────────────────┘
-```
 
-### File Structure
-
-```
-tngd_rag/
-├── bot.py                      # Main bot interface
-├── rag_pipeline.py             # RAG pipeline components
-├── guardrails.py               # Adversarial defense
-├── initialize.py               # Setup script
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-├── data/                       # FAQ data directory
-│   └── faq_data.json          # FAQ knowledge base
-├── chromadb_store/            # Vector database (auto-created)
-├── scripts/
-│   └── scrape_tngd_faq.py     # Web scraper
-└── ui/                        # Future UI extensions
 ```
 
 ---

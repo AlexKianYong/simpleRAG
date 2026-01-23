@@ -27,22 +27,23 @@ pip install -r requirements.txt
 # python initialize.py
 ```
 
-### Using the Bot
-
-<!-- **Interactive Chat**
-```powershell
-python cli.py
-```
-
-**Demo Mode**
-```powershell
-python cli.py --demo
-``` -->
-
 **Web Interface**
 ```powershell
-rm -r .\chromadb_store\
-python ui/app.py
+
+(Optional Step) cd scripts
+- go to tngd_rag\scripts and launch the web scraper script
+
+(Optional Step) python .\scrape_tngd_faq.py 
+- this step will launch a  web scraper and grab all the FaQ content and save into json
+- the output store in ### tngd_rag\data\faq_data.json ###
+
+(Optional Step) rm -r chromadb_store
+- clear chromaDB 
+
+python .\ui\app.py
+
+- when the app.py start knowledgeBase will be loaded into ChromaDB autimatically
+
 # Open: http://localhost:5000
 ```
 
@@ -146,15 +147,6 @@ Return Result
 - **SETUP_GUIDE.md** - Step-by-step setup
 - **IMPLEMENTATION_SUMMARY.md** - Technical details
 - **test_bot.py** - Test suite
-
----
-
-## 🚀 Next Steps
-
-1. Run `python initialize.py`
-2. Try `python cli.py --demo`
-3. Ask your own questions with `python cli.py`
-4. Deploy using `python ui/app.py` for web access
 
 ---
 
